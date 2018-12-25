@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomContrlExercise", "CustomContrlExercise\CustomContrlExercise.csproj", "{7A5972C7-9DCB-4F8D-9674-530BB32B2F6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCustomControlLibrary", "WpfCustomControlLibrary\WpfCustomControlLibrary.csproj", "{F95A17E5-70E7-4EAD-B0A2-C9AAA892BC97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7A5972C7-9DCB-4F8D-9674-530BB32B2F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5972C7-9DCB-4F8D-9674-530BB32B2F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A5972C7-9DCB-4F8D-9674-530BB32B2F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95A17E5-70E7-4EAD-B0A2-C9AAA892BC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95A17E5-70E7-4EAD-B0A2-C9AAA892BC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95A17E5-70E7-4EAD-B0A2-C9AAA892BC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95A17E5-70E7-4EAD-B0A2-C9AAA892BC97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

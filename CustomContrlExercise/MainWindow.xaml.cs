@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,26 @@ namespace CustomContrlExercise
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new DataObject() { name = "Jeong Yo Han" };
+        }
+
+        public class DataObject : INotifyPropertyChanged
+        {
+            private string _name;
+            public string name
+            {
+                get { return _name; }
+                set { /* break point here*/
+                    _name = value;
+                    onPropertyChanged("name");
+                }
+            }
+            public event PropertyChangedEventHandler PropertyChanged;
+            public void onPropertyChanged(string name)
+            {
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
         }
     }
 }
