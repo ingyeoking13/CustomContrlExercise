@@ -58,7 +58,7 @@ namespace WpfCustomControlLibrary
             DependencyProperty.Register(
                 "Textaa", 
                 typeof(string), typeof(CustomControl1),
-                new PropertyMetadata(null));
+                new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
 
         public string Textaa
         {
